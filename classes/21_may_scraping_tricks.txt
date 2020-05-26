@@ -1,0 +1,20 @@
+
+	3 importanat things to remember in scraping:
+		>find a tag or find all tags of same type
+			tag=soup.find('tag name')
+			tags=soup.find_all('tag name')
+
+		>find text from tag
+			text=tag.getText()
+	
+		>find attribute(property) value of a tag
+			value=tag.get('attribute name')
+
+
+	exp:
+		<img src="abc.png">
+		<a href="abc.html">next</a>
+
+		anchor=soup.find('a')	
+		text=anchor.getText()
+		value=anchor.get('href')

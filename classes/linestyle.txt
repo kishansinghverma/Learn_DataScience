@@ -1,0 +1,4 @@
+``'-'``             solid line style
+``'--'``            dashed line style
+``'-.'``            dash-dot line style
+``':'``             dotted line style
